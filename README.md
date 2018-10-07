@@ -10,21 +10,21 @@
     9  sudo docker run hello-world
 
 ## List Docker CLI commands
-docker
-docker container --help
+    1 docker
+    2 docker container --help
 
 ## Display Docker version and info
-docker --version
-docker version
-docker info
+    1 docker --version
+    2 docker version
+    3 docker info
 
 ## Execute Docker image
-docker run hello-world
+    1 docker run hello-world
 
 ## List Docker images
-docker image ls
+    1 docker image ls
 
 ## List Docker containers (running, all, all in quiet mode)
-docker container ls
-docker container ls --all
-docker container ls -aq
+    1 docker container ls
+    2 docker container ls --all
+    3 docker container ls -aq
