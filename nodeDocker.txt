@@ -176,3 +176,11 @@ Date: Mon, 13 Nov 2017 20:53:59 GMT
 Connection: keep-alive
 
 Hello world
+
+
+## Pushing Docker image 
+export DOCKER_ID_USER="username"
+docker login
+(find image id by : sudo docker images)
+sudo  docker tag 6d0fa3d26dcb  andalike/node-web-app
+sudo docker push andalike/node-web-app
