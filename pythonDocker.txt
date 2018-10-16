@@ -60,3 +60,15 @@ if __name__ == "__main__":
 5) docker run -p 4000:80 friendlyhello
 
 6)curl http://localhost:4000
+
+7)sudo docker images ls -a
+
+8)sudo docker tag 6edf906dcc81  andalike/friendlyhello
+
+9)sudo docker build -t andalike/friendlyhello .
+
+10)sudo docker run -p 4000:80 andalike/friendlyhello
+
+11)sudo docker tag 6edf906dcc81 andalike/friendlyhello
+
+12)sudo docker push andalike/friendlyhello
