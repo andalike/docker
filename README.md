@@ -28,3 +28,6 @@
     1 docker container ls
     2 docker container ls --all
     3 docker container ls -aq
+    
+## Remove docker image
+    1 docker rmi <<imageName>>
