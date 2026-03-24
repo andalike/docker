@@ -31,3 +31,5 @@
     
 ## Remove docker image
     1 docker rmi <<imageName>>
+
+## Other commands
